@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#08110f"/>
+      <stop offset="100%" stop-color="#0f2a20"/>
+    </linearGradient>
+    <radialGradient id="r" cx="60%" cy="20%" r="70%">
+      <stop offset="0%" stop-color="#d2a24c" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#d2a24c" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="24"/></filter>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <rect width="1200" height="800" fill="url(#r)"/>
+  <g opacity="0.35">
+    <circle cx="220" cy="120" r="140" fill="#d2a24c" filter="url(#blur)"/>
+    <circle cx="980" cy="640" r="180" fill="#d2a24c" filter="url(#blur)"/>
+  </g>
+  <path d="M0 610 C130 540 250 560 330 520 C430 470 470 390 560 360 C720 305 790 390 900 360 C1030 325 1110 220 1200 180 L1200 800 L0 800 Z" fill="#000" opacity="0.48"/>
+  <path d="M0 680 C170 630 240 650 330 610 C430 565 560 470 710 510 C860 550 995 465 1200 390 L1200 800 L0 800 Z" fill="#000" opacity="0.7"/>
+  <path d="M740 415 C770 372 840 350 886 360 C956 375 980 425 1015 454 C1040 474 1080 496 1072 530 C1064 564 1006 562 967 555 C929 548 885 548 850 566 C820 580 786 612 752 608 C715 604 696 562 702 527 C707 496 720 445 740 415 Z" fill="#050505" opacity="0.93"/>
+  <path d="M870 395 C899 350 960 323 1010 333 C1040 339 1055 357 1071 381 C1038 374 1002 382 969 396 C931 411 901 431 874 453 C859 442 859 413 870 395 Z" fill="#0b0b0b" opacity="0.9"/>
+  <path d="M952 474 L1040 454 L995 494 Z" fill="#d2a24c" opacity="0.25"/>
+  <path d="M777 620 C746 598 724 579 695 552 C675 532 630 503 640 472 C648 447 684 438 714 444 C761 452 790 489 826 512 C855 531 906 545 904 582 C902 620 850 628 821 628 C808 628 791 627 777 620 Z" fill="#0a0a0a" opacity="0.92"/>
+  <g fill="#ffffff" opacity="0.9">
+    <text x="80" y="600" font-size="76" font-family="Arial, sans-serif" font-weight="700">تۇمان ئىچىدىن ئورمان پادىشاھى</text>
+    <text x="80" y="655" font-size="30" font-family="Arial, sans-serif" opacity="0.85">تىرانوزاۋر سايىسى، يامغۇر ۋە يورۇق كۆز — بالىلارچە ئەمەس، ھەيۋەتلىك.</text>
+  </g>
+</svg>
