@@ -48,7 +48,7 @@ h1,h2,h3,h4,h5,h6,.navbar-light .navbar-nav .nav-link { font-family: 'Roboto Con
 .dropdown-item:hover { background:#162521; color:var(--primary); }
 .hero-header {
     position: relative;
-    background: linear-gradient(rgba(4,8,7,.45), rgba(4,8,7,.76)), url(../img/hero-dino.svg) center center no-repeat;
+    background: linear-gradient(rgba(4,8,7,.45), rgba(4,8,7,.76)), url(../img/hero-background.jpg) center center no-repeat;
     background-size: cover;
     overflow: hidden;
 }
