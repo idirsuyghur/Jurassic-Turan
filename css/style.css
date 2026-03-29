@@ -13,7 +13,7 @@
 }
 
 :root {
-    --primary: #d2a24c;
+    --primary: #ffd166;
     --secondary: #22372f;
     --light: #f1ede4;
     --dark: #08110f;
@@ -70,6 +70,10 @@ h1,h2,h3,h4,h5,h6,.navbar-light .navbar-nav .nav-link { font-family: 'UKIJ Tuz',
 }
 .hero-header .container { position: relative; z-index: 1; }
 .section-lead { font-size:1.08rem; color:var(--muted); }
+.homepage-intro { text-align: center; }
+.homepage-intro .fact-card { margin-inline: auto; }
+.intro-title { color: #fff4c7; text-shadow: 0 0 18px rgba(255, 209, 102, .16); }
+.intro-copy { max-width: 760px; }
 .service-item, .fact-card, .story-card, .contact-card, .field-card, .blog-card, .glass-panel, .gallery-card {
     background: linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.025));
     border: 1px solid rgba(210,162,76,.12);
