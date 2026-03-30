@@ -201,7 +201,13 @@ h1,h2,h3,h4,h5,h6,.navbar-light .navbar-nav .nav-link { font-family: 'UKIJ Tuz',
 .price-carousel .owl-nav .owl-prev:hover, .price-carousel .owl-nav .owl-next:hover, .team-carousel .owl-nav .owl-prev:hover, .team-carousel .owl-nav .owl-next:hover { background: var(--primary); color:#111; }
 @media (min-width:576px){ .team-item .row { height:360px; } }
 .team-item .row, .testimonial-item, .price-card, .blog-card { background: linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02)); }
-.team-item img, .blog-card img, .price-card img, .page-hero-art, .gallery-card img { object-fit: cover; }
+.team-item img, .blog-card img, .price-card img, .page-hero-art, .gallery-card img { object-fit: cover; display:block; }
+.blog-card img, .price-card img, .page-hero-art, .gallery-card img {
+    width: 100%;
+    min-height: 260px;
+    height: 260px;
+    background: linear-gradient(180deg, rgba(255,216,77,.08), rgba(0,0,0,.22));
+}
 .gallery-card img { height: 280px; }
 .photo-gallery-section { background: linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.01)); }
 .gallery-grid .gallery-card { transition: .35s; }
